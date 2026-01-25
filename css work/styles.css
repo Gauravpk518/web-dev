@@ -51,7 +51,7 @@ h1 {
 
     height: 7%;
     width: 100%;
-    background-image: url(https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=);
+    /* background-image: url(https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=); */
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -65,22 +65,31 @@ h1 {
 
 #button1 {
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
-    border: 3px solid rgb(0, 0, 0);    
+    border: 3px solid rgb(252, 133, 64);    
    
 }
 
 #button2{
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
-    border: 3px solid rgb(0, 0, 0);  
+    margin-left: 5px;
+    border: 3px solid rgb(252, 133, 64);  
+}
+
+#button3{
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: 3px solid rgba(252, 133, 64);  
 }
 
 #name {
-    font-size: 25px;
+    font-size: 20px;
     font-family: gaurav;
     color: aliceblue;
-
 }
+
