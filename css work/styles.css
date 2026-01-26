@@ -145,3 +145,36 @@ h1 {
     text-shadow: 2px 2px #4d96d1;
 
 }
+
+/* reviews */
+
+.box3 {
+    height: 100%;
+    width: 100%;
+
+}
+#container3 {
+    margin-top: 20px;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(128, 122, 122);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: solid 5px;
+}
+
+#reviews {
+    display: flex;
+    justify-content: center;
+
+}
+#square1,
+#square2,
+#square3 {
+    margin: 90px;
+    width: 450px;
+    height: 350px;
+    background-color: rgb(165, 180, 165);
+    border: 10px solid;
+}
