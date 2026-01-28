@@ -101,6 +101,7 @@ h1 {
     height: 100%;
     width: 100%;
     display: flex;
+    margin-top: 5px;
     
     
 }
@@ -149,32 +150,76 @@ h1 {
 /* reviews */
 
 .box3 {
-    height: 100%;
+    height: 550px;
     width: 100%;
 
 }
 #container3 {
-    margin-top: 20px;
-    height: 550px;
+    height: 100%;
     width: 100%;
     background-color: rgb(128, 122, 122);
     display: flex;
-    justify-items: center;
-    align-items: center;
     border: solid 5px;
+    margin-top: 5px;
+
 }
 
 #reviews {
     display: flex;
-    justify-content: center;
-
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
-#square1,
-#square2,
-#square3 {
-    margin: 90px;
+
+#square1
+{
     width: 450px;
     height: 350px;
     background-color: rgb(165, 180, 165);
-    border: 10px solid;
+    border: 7px solid;
+    background-image: url(https://images.unsplash.com/photo-1769109002468-85f8a39d5ccd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
 }
+
+#square2
+{
+    width: 450px;
+    height: 350px;
+    background-color: rgb(165, 180, 165);
+    border: 7px solid;
+    background-image: url(https://images.unsplash.com/photo-1426086800127-2601510ca027?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1603270504031-4344a08b28b6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+
+}
+
+#square3 {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(165, 180, 165);
+    border: 7px solid;
+    background-image: url(https://images.unsplash.com/photo-1768845532725-d617e417fc5f?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+
+.box4 {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to right,#667db6, #0082c8, #667db6)
+    
+}
+
+#conclusion {
+    padding: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#baseline {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+
+/* improve font for conclusion and do more changes */
