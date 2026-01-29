@@ -30,23 +30,23 @@ body, html {
 
     height: 7%;
     width: 100%;
-    /* background-image: url(https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=);
-     */
+     /* background-image: url(https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.jpg?s=612x612&w=0&k=20&c=AHcmpswk3g3toHSFt5yCV_1uzMZUaJl95p3UIgm8euo=); */
+     
      background-image: url(https://images.unsplash.com/photo-1491071676596-825e11fccef5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1545486332-9e0999c535b2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
-    border: 1px solid white;   /* 👈 border */
+    border: 1px solid white;   /*  border */
     border-radius: 10px;
-    /* position:fixed; */
 }
 
 #name {
     font-size: 20px;
     font-family: gaurav;
     color: aliceblue;
+    
 }
 
 
@@ -55,7 +55,6 @@ body, html {
     padding: 10px 15px;
     border-radius: 10px;
     border: 3px solid rgb(252, 133, 64);    
-   
 }
 
 #button2{
@@ -80,13 +79,15 @@ body, html {
     text-align: center;
 }
 h1 {   
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 70px;
     /* font-family: journey; */
     font-weight: 500;
 }
 
 #expbutton {
+    color: rgb(2, 1, 1);
+    background-color: rgba(255, 255, 255, 0.918);
     margin-top: 70px;
     font-size: 25px;
     padding: 10px 20px;
@@ -157,7 +158,7 @@ h1 {
 #container3 {
     height: 100%;
     width: 100%;
-    background-color: rgb(128, 122, 122);
+    background: linear-gradient(to right bottom, black, grey, black);
     display: flex;
     border: solid 5px;
     margin-top: 5px;
@@ -175,7 +176,6 @@ h1 {
 {
     width: 450px;
     height: 350px;
-    background-color: rgb(165, 180, 165);
     border: 7px solid;
     background-image: url(https://images.unsplash.com/photo-1769109002468-85f8a39d5ccd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
@@ -185,7 +185,6 @@ h1 {
 {
     width: 450px;
     height: 350px;
-    background-color: rgb(165, 180, 165);
     border: 7px solid;
     background-image: url(https://images.unsplash.com/photo-1426086800127-2601510ca027?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1603270504031-4344a08b28b6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
@@ -195,7 +194,6 @@ h1 {
 #square3 {
     width: 450px;
     height: 350px;
-    background-color: rgb(165, 180, 165);
     border: 7px solid;
     background-image: url(https://images.unsplash.com/photo-1768845532725-d617e417fc5f?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
@@ -209,17 +207,26 @@ h1 {
 }
 
 #conclusion {
-    padding: 100px;
+    padding: 90px;
     text-align: center;
     font-size: 40px;
 }
 
-#baseline {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    font-size: 20px;
-    
+#bottombar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
+#bottombar h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;   /* controls space between icon and text */
+}
+
+
+
 /* improve font for conclusion and do more changes */
+
+/* do hosting */
