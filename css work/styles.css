@@ -212,7 +212,7 @@ h1 {
     display: flex;
     width: 100%;
     height: 800px;
-    border: 10px solid white;
+   
 
 }
 
@@ -224,8 +224,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
+    border: 5px solid rgba(255, 177, 74, 0.774);   
 }
 
 #container4 {
@@ -236,13 +235,14 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 10px solid white;
         border-radius: 40px;
+        border: 10px solid white;
 
         
 }
 
 #gallerytext {
+    
     
     font-size: 30px;
     color: white;
@@ -255,38 +255,43 @@ h1 {
 #container5 {
     height: 100%;
     width: 800px;
-    background-color: rgb(131, 202, 49);
-    display: flex;
+    background-color: rgb(129, 197, 52);
+    border: 10px solid white;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    
    
     
 }
 
 #gallery1 {
-    margin-top: 50px;
-    margin-right: 450px;
+    /* margin-top: 50px;
+    margin-right: 450px; */
     height: 350px;
-    width: 280px;
+    width: 350px;
     background-color: #c5a4a4;
     background-image: url(https://images.unsplash.com/photo-1768471126957-df36ac318dc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8);
     background-position: center;
     background-size: cover;
     border: 10px solid white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.705);
      /* position: absolute; */
 }
 
 #gallery2 {
 
-     height: 350px;
-    width: 280px;
+    height: 350px;
+    width: 350px;
     background-color: #361717;
     background-image: url(https://images.unsplash.com/photo-1768590238594-625fe0d913aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
     border: 10px solid white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
      /* position: absolute; */
     
     
@@ -295,31 +300,35 @@ h1 {
 
 #gallery3 {
     height: 350px;
-    width: 280px;
-    margin-bottom: 50px;
-    margin-left: 450px;
+    width: 350px;
+    /* margin-bottom: 50px;
+    margin-left: 450px; */
     background-color: #667db6;
-    background-image: url(https://images.unsplash.com/photo-1768944285756-9981f5e2eb19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1768471126957-df36ac318dc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8);    background-position: center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1712418420146-6ea99872ef45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
     background-size: cover;
     border: 10px solid white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
     /* position: absolute; */
    
 }
 
-/* #gallery4 {
+#gallery4 {
     height: 350px;
-    width: 280px;
-    margin-bottom: 50px;
-    margin-left: 450px;
+    width: 350px;
+    /* margin-bottom: 50px;
+    margin-left: 450px; */
     background-color: #667db6;
-    background-image: url(https://images.unsplash.com/photo-1768944285756-9981f5e2eb19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1768471126957-df36ac318dc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8);    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1769010934261-ce846f3053dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
     background-size: cover;
     border: 10px solid white;
-     position: absolute;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+     /* position: absolute; */
    
 }
 
-#gallery5 {
+/* #gallery5 {
     height: 350px;
     width: 280px;
     margin-bottom: 50px;
@@ -357,5 +366,6 @@ h1 {
 
 
 /* improve font for conclusion and do more changes */
+/* make the fifth pic absolute */
 
 /* do hosting */
